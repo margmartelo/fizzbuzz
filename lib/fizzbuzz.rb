@@ -1,5 +1,9 @@
 class Integer
   def fizzbuzz
-    return "fizz" if self == 3
+    if self == 3
+      return "fizz"
+    elsif self == 5
+      return "buzz"
+    end
   end
 end

@@ -1,3 +1,4 @@
+require 'fizzbuzz'
 
 describe "fizzbuzz" do
   # First test: returns 'fizz' for number 3
@@ -5,5 +6,5 @@ describe "fizzbuzz" do
     expect(3.fizzbuzz).to eq 'fizz'
   end
 
-  
+
 end

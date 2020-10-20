@@ -23,5 +23,8 @@ describe "fizzbuzz" do
     expect(15.fizzbuzz).to eq "fizzbuzz"
   end
 
-
+  it 'returns number for numbers that aren\'t multiples of either 3 or 5' do
+    expect(1.fizzbuzz).to eq 1
+  end
+  
 end

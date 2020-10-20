@@ -1,5 +1,7 @@
 # FizzBuzz #
 
+A fizzbuzz.rb script has been developed, which creates a fizzbuzz method inside the Integer Class, so that fizzbuzz can be called on an instance of the class. The project was implemented following the TDD protocol, by using RSpec, and by collaborating through Pair Programming. :neckbeard: 
+
 ## How to use
 Inside the fizzbuzz.rb script, a new "fizzbuzz" method for the Integer Class is introduced, and it can be accessed by calling fizzbuzz on an integer instance. For example, in the following prompt the fizzbuzz method is applied on the numbers 1 to 20.
 ```ruby
